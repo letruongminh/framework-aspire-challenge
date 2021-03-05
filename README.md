@@ -106,6 +106,15 @@ I think it is a possible solution as I see that after clicking on `Upload file` 
 
 Actually, this challenge is pretty intersting at all. Thank you all for helping me improve my technical knowledge through this requirements. 
 
+## 5. VERIFICATION STEPS
+### 5.1. Precondition
+* Has IntelliJ previously installed
+* Has all source cloned to local environment 
+* Auto-download all libraries in `pom.xml` file
+
+### 5.2. Test Execution
+* Execute the `AppTest` class 
+
 ## REFERENCES
 [1. SMS Listener Service](https://toilatester.blog/2021/02/07/huong-dan-cach-automate-otp-code-tren-mobile/)
 [2. SMS Listener Android](https://github.com/toilatester/sms-listener-service/releases/tag/v1.0.0) 
