@@ -113,6 +113,7 @@ Actually, this challenge is pretty intersting at all. Thank you all for helping 
 * Auto-download all libraries in `pom.xml` file
 
 ### 5.2. Test Execution
+* Prepare test data correctly and it must be **new** so that all necessary pages will appear as expected
 * Execute the `AppTest` class 
 
 ## REFERENCES
