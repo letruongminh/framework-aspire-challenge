@@ -1,3 +1,5 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -42,8 +44,14 @@ public class BusinessEditPage {
 
     public void fillBusinessDetails(WebDriver driver, User user) {
         ElementExtensions.inputText(driver, this.businessNameTextBox, user.businessName);
-        //
-        ElementExtensions.actionChainClickOnElement(driver, this.registrationTypeTextBox);
+        try {
+            CommonFunctions.waitForPageLoaded(driver);
+            ElementExtensions.actionChainClickOnElement(driver, this.registrationTypeTextBox);
+        } catch (StaleElementReferenceException e) {
+            WebElement element = driver.findElement(By.xpath("//input[@data-cy='register-business-registration-type']"));
+            ElementExtensions.clickOnElement(driver, element);
+        }
+
         CommonFunctions.waitForPageLoaded(driver);
         List<WebElement> listRegistrationType = this.listRegistrationType;
         for (WebElement element : listRegistrationType) {
