@@ -1,0 +1,11 @@
+<story path="stories/register.story" title="">
+<meta>
+<property keyword="@" name="author:" value="Le Truong Minh"/>
+<property keyword="@" name="test-suite:" value="Registration"/>
+</meta>
+<scenario keyword="Scenario:" title="Successful completed registration flow as appointed director">
+<step outcome="successful">Given a user with detailed data</step>
+<step outcome="successful">When I complete registration flow as appointed director</step>
+<step outcome="successful">Then I can meet the step for waiting the approval</step>
+</scenario>
+</story>

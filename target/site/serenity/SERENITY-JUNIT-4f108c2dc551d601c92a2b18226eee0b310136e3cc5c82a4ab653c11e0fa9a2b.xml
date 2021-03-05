@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Register" skipped="0" tests="1" time="13.48" timestamp="2021-03-05 02:46:29"><testcase name="Successful completed registration flow as non-director"><error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=89.0.4389.72)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-IM0L4O5F', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.72, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MINHLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bad6cc1b502c75f14cb53637f417a351&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-IM0L4O5F', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.StaleElementReferenceException">stale element reference: element is not attached to the page document
+  (Session info: chrome=89.0.4389.72)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IM0L4O5F', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.72, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MINHLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bad6cc1b502c75f14cb53637f417a351
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IM0L4O5F', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: unknown</error><system-err>stale element reference: element is not attached to the page document
+  (Session info: chrome=89.0.4389.72)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IM0L4O5F', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.72, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\MINHLE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55532}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bad6cc1b502c75f14cb53637f417a351
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IM0L4O5F', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: driver.version: unknown&#13;
+ElementExtensions.waitElementToBeVisible(ElementExtensions.java:31)&#13;
+ElementExtensions.clickOnElement(ElementExtensions.java:54)&#13;
+LoginPage.clickOnRegisterLink(LoginPage.java:25)&#13;
+BaseSteps.completeRegistrationFlowAsNonDirector(BaseSteps.java:64)&#13;
+</system-err></testcase></testsuite>

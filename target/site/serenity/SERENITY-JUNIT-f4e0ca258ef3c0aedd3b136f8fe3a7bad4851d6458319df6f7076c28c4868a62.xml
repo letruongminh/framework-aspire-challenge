@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="AppTest" skipped="0" tests="1" time="0.0" timestamp="2021-03-05 12:29:48"><testcase classname="AppTest" name="Initialisation"><error message="org.junit.runners.model.FrameworkMethod.getDeclaringClass()Ljava/lang/Class;" type="java.lang.NoSuchMethodError">org.junit.runners.model.FrameworkMethod.getDeclaringClass()Ljava/lang/Class;</error><system-err>org.junit.runners.model.FrameworkMethod.getDeclaringClass()Ljava/lang/Class;&#13;
+</system-err></testcase></testsuite>
